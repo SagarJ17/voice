@@ -1,0 +1,43 @@
+{
+  "name": "es6ify",
+  "version": "1.6.0",
+  "description": "browserify v2 transform to compile JavaScript.next (ES6) to JavaScript.current (ES5) on the fly.",
+  "main": "es6ify.js",
+  "scripts": {
+    "docme": "JSDOC_GITHUBIFY_BRANCH=master docme README.md -- --configure .jsdocrc",
+    "test": "tap test/*.js"
+  },
+  "repository": "thlorenz/es6ify",
+  "homepage": "https://thlorenz.github.io/es6ify/",
+  "dependencies": {
+    "through": "~2.2.7",
+    "traceur": "0.0.79",
+    "xtend": "~2.2.0"
+  },
+  "devDependencies": {
+    "tap": "~0.4.0",
+    "proxyquire": "~0.4.0",
+    "convert-source-map": "~0.4.1",
+    "browserify": "~5.12.1"
+  },
+  "keywords": [
+    "traceur",
+    "JavaScript.next",
+    "ES6",
+    "browserify",
+    "browserify-transform",
+    "v2",
+    "js",
+    "plugin",
+    "transform"
+  ],
+  "author": {
+    "name": "Thorsten Lorenz",
+    "email": "thlorenz@gmx.de",
+    "url": "http://thlorenz.com"
+  },
+  "license": "MIT",
+  "engine": {
+    "node": ">=0.8"
+  }
+}
