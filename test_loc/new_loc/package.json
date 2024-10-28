@@ -10,8 +10,7 @@
   "repository": "thlorenz/es6ify",
   "homepage": "https://thlorenz.github.io/es6ify/",
   "dependencies": {
-    "jsonwebtoken": "8.4.0",
-    "jsonwebtoken": "8.5.1"
+    "jsonwebtoken": "8.4.0"
   },
   "keywords": [
     "traceur",
